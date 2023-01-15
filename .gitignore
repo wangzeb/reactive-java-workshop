@@ -27,3 +27,6 @@
 hs_err_pid*
 replay_pid*
 .idea/inspectionProfiles/Project_Default.xml
+
+# git ignore test
+src/main/java/com/yjjb/test/*

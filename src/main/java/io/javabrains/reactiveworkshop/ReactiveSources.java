@@ -20,7 +20,7 @@ public class ReactiveSources {
 
     public static Flux<Integer> intNumbersFlux() {
         return Flux
-                .range(1, 10)
+                .range(1, 9)
                 .delayElements(Duration.ofSeconds(1));
     }
 
